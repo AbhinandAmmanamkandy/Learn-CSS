@@ -1,24 +1,15 @@
 body{
-    background-color: black;
+    background-color: #111111;
 }
 h1{
-    color: white;
+    color: #FFFFFF;
+    font-family: "Press Start 2P", "consolas", sans-serif;
 }
 p{
-    background-color: gray;
-    color: white;
-}
-
-.odd{
-    color: red;
-}
-
-.even{
-    color: blue;
-}
-
-/* id have more specificity so tomato color is applied 
-    overriding red color  */
-#p1{
-    color: tomato;
+    color: #00FF73;
+    font-family: "consolas",sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan dotted underline;
+    font-size: 18px;
 }
