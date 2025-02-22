@@ -1,13 +1,16 @@
-.box{
-    width: 100px;
-    height: 100px;
+#box1{
     border: 1px solid;
-    font-size: 30px;
-    text-align: center;
-    background-color: tomato;
-    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+    position: sticky;
+    bottom: 0px;
 }
-p{
-    /* To stop floating use clear */
-    clear: left;
+
+#box2{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position: absolute;
 }
